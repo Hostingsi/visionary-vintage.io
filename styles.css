@@ -1,0 +1,195 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("bg3.jpg");
+
+}
+
+header {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 3px 0;
+}
+
+
+
+h1{
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 4px solid #3498db;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+.images{
+    margin-left: 120px;
+}
+
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    margin: 25px;
+}
+
+.contact{
+    margin: 25px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.details{
+    margin-bottom: 20px;
+}
+
+.profile img{
+    border-radius: 75%;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature:hover{
+    background: whitesmoke;
+}
+
+.feature img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.cta {
+    text-align: center;
+    padding: 50px 0;
+    margin: 25px;
+    font-size: 25px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+a i{
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 35px;
+    font-size: 78px;
+}
+
+
+.reviews {
+    margin-top: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 16px;
+}
+
+
+/* NAVBAR */
+.navbar {
+    box-shadow: var(--box-shadow);
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    color: var(--c-dark);
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--c-brand);
+}
+
+
+/* BTN */
+.btn {
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 10px 24px;
+}
+
+.btn-brand {
+    background-color: var(--c-brand);
+    border-color: var(--c-brand);
+    color: blue;
+}
+
+.btn-brand:hover {
+    background-color: var(--c-brand-light);
+    border-color: var(--c-brand-light);
+    color: white;
+}
+
+
+/* ABOUT US */
+.services{
+    padding: 15px;
+    background: transparent;
+    text-align: center;
+    color: black;
+}
+.cen{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+.service{
+    display: inline-grid;
+    width: calc(100% /3);
+    margin: 0 -2px;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.service:hover{
+    background: whitesmoke;
+}
+.service i{
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+.service h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0;
+    color: black;
+}
+.service p{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+@media screen and (max-width: 800px){
+    .service{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 500px){
+    .service{
+        width: 100%;
+    }
+}
